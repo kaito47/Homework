@@ -1,13 +1,16 @@
+/* layout of all elements in the webpage */ 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* body background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* header style */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +19,7 @@ header {
     font-weight: bold;
 }
 
+/* navigation bar style */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -24,6 +28,7 @@ nav {
     font-size: 20px;
 }
 
+/* company name layout, sizing and color scheme */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -38,6 +43,7 @@ a {
         text-decoration: none;
 }
 
+/* navigation bar link layout */
 ul {
     list-style-type: none;
 }
@@ -47,12 +53,14 @@ li {
     margin-left: 25px;
 }
 
+/* cover image layout */
 img {
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
 
+/* main informational content layout and style */
 main {
     width: 75%;
     display: inline-block;
@@ -68,6 +76,7 @@ main {
     color: #ffffff;
 }
 
+/* informational content layout and style */
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -92,7 +101,7 @@ section img {
     margin-left: 25px;
 }
 
-
+/* sidebar layout and style */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -123,6 +132,7 @@ h3 {
     max-width: 150px;
 }
 
+/* footer layout and style */
 footer {
     padding: 30px;
     clear: both;
