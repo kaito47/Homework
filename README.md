@@ -20,3 +20,7 @@ Visitors can learn about the benefits of using Horiseon by reading the informati
 The footer at the bottom of the page denotes the webage design by Horiseon, as well as the copyright and Inc.:
 
 ![footer](footer.png)
+
+Link to the deployed application: 
+
+[Horiseon application link](https://kaito47.github.io/Homework/)
